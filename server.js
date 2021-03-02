@@ -20,7 +20,7 @@ app.get("/campsites", (req, res) => {
 
 app.post("/campsites", (req, res) => {
   res.end(
-    `Will add the campsite: ${req.body.name} with description: ${req.body.description}`
+    `Will add the campsite: ${req.body.name} with description: ${req.body.description} DO NOT RAPE WOMEN!`
   );
 });
 
